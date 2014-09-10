@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ember.js • TodoMVC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/libs/jquery-1.11.1.min.js"></script>
+    <script src="js/libs/handlebars-1.0.0.js"></script>
+    <script src="js/libs/ember.js"></script>
+    <script src="js/libs/ember-data.js"></script>
+  </head>
+  <body>
+    <script type="text/x-handlebars" data-template-name="portraits">
+      <section id="portrait-game-app">
+        <header id="header">
+          <h1>Portraits</h1>
+        </header>
+
+        <section id="main">
+          <ul id="portrait-list">
+            {{#each}}
+              <li>
+                <img {{bind-attr src="img" alt="name"}}>
+              </li>
+            {{/each}}
+          </ul>
+        </section>
+      </section>
+    </script>
+
+    <script src="js/application.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/models.js"></script>
+  </body>
+</html>
