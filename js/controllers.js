@@ -1,6 +1,5 @@
 PortraitGame.PortraitsController = Ember.ArrayController.extend({
-  picked: null,
-  revealed: false,
+  isRevealed: false,
   hero: function() {
     return this.sample();
   }.property(),
@@ -11,11 +10,11 @@ PortraitGame.PortraitsController = Ember.ArrayController.extend({
   actions: {
     // Reveal the name of the displayed hero
     reveal: function() {
-      this.set('revealed', true);
+      this.set('isRevealed', true);
     },
     // Display a new random hero
     next_hero: function() {
-      this.set('revealed', false);
+      this.set('isRevealed', false);
       this.set('hero', this.sample());
     }
   }

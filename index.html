@@ -13,16 +13,13 @@
   <body>
     <script type="text/x-handlebars" data-template-name="portraits">
       <section id="portrait-game-app">
-        <div class="hero">
-          {{#if revealed}}
-            <div class="hero-name" {{action 'next_hero'}}>
-              {{hero.name}}
-            </div>
-          {{else}}
-            <div {{action 'reveal'}}>
-              <img class="hero-portrait" {{bind-attr src="hero.img"}} />
-            </div>
-          {{/if}}
+        <div {{bind-attr class=":hero isRevealed"}}>
+          <div class="hero-name" {{action 'next_hero'}}>
+            {{hero.name}}
+          </div>
+          <div class="hero-portrait" {{action 'reveal'}}>
+            <img {{bind-attr src="hero.img"}}/>
+          </div>
         </section>
       </section>
     </script>
