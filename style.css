@@ -1,4 +1,9 @@
+#portrait-game-app {
+  width: 100%;
+}
+
 .hero {
+  margin: auto;
   width: 256px;
   height: 144px;
 }
