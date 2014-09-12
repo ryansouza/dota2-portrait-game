@@ -4,6 +4,6 @@ PortraitGame.Router.map(function() {
 
 PortraitGame.PortraitsRoute = Ember.Route.extend({
   model: function() {
-    return this.store.find('portrait');
+    return Ember.A(PortraitGame.Heroes);
   },
 });
