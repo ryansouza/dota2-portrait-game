@@ -1,18 +1,23 @@
 #portrait-game-app {
-  width: 100%;
 }
 
 .hero {
-  margin: auto;
+  margin: 0 auto;
   width: 256px;
   height: 144px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 6px;
 }
 
 .hero-name {
   margin: 0;
   padding-top: 1em;
-  width: 256px;
   height: 144px;
   font-size: 2em;
   text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
