@@ -12,24 +12,19 @@
   <body>
     <script type="text/x-handlebars" data-template-name="portraits">
       <section id="portrait-game-app">
-        <header id="header">
-          <h1>Portraits</h1>
-        </header>
-
-        <section id="main">
-          <ul id="portrait-list">
-            {{#each}}
-              <li>
-                <img {{bind-attr src="img" alt="name"}}>
-              </li>
-            {{/each}}
-          </ul>
+        <div class="hero">
+          {{#if revealed}}
+            <p class="hero-name" {{action next_hero}}>{{picked.name}}</p>
+          {{else}}
+            <img class="hero-portrait" {{bind-attr src="picked.img"}} {{action reveal}}>
+          {{/if}}
         </section>
       </section>
     </script>
 
     <script src="js/application.js"></script>
-    <script src="js/router.js"></script>
     <script src="js/models.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/router.js"></script>
   </body>
 </html>
