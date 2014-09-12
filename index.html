@@ -15,9 +15,13 @@
       <section id="portrait-game-app">
         <div class="hero">
           {{#if revealed}}
-            <p class="hero-name" {{action next_hero}}>{{picked.name}}</p>
+            <div class="hero-name" {{action 'next_hero'}}>
+              {{hero.name}}
+            </div>
           {{else}}
-            <img class="hero-portrait" {{bind-attr src="picked.img"}} {{action reveal}}>
+            <div {{action 'reveal'}}>
+              <img class="hero-portrait" {{bind-attr src="hero.img"}} />
+            </div>
           {{/if}}
         </section>
       </section>
