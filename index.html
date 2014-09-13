@@ -13,6 +13,7 @@
   <body>
     <script type="text/x-handlebars" data-template-name="portraits">
       <section id="portrait-game-app">
+        <span style="display: none;">Debug: {{hero.id}}</span>
         <div {{bind-attr class=":hero isRevealed"}}>
           <div class="hero-portrait" {{action 'reveal'}}>
             <img class="hero-portrait" {{bind-attr src="img"}}/>

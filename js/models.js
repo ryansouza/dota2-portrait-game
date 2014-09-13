@@ -201,7 +201,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 42,
-    "name": "Skeleton King",
+    "name": "Wraith King",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_full.png"
   },
   {
