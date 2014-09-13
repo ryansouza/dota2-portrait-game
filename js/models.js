@@ -2,7 +2,7 @@ PortraitGame.Heroes = [
   {
     "id": 1,
     "name": "Anti-Mage",
-    "img": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png"
+    "img": "img/antimage_full.png"
   },
   {
     "id": 2,
@@ -337,7 +337,7 @@ PortraitGame.Heroes = [
   {
     "id": 68,
     "name": "Ancient Apparition",
-    "img": "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_full.png"
+    "img": "img/ancient_apparition_full.png"
   },
   {
     "id": 70,
@@ -357,7 +357,7 @@ PortraitGame.Heroes = [
   {
     "id": 73,
     "name": "Alchemist",
-    "img": "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_full.png"
+    "img": "img/alchemist_full.png"
   },
   {
     "id": 74,
@@ -502,7 +502,7 @@ PortraitGame.Heroes = [
   {
     "id": 102,
     "name": "Abaddon",
-    "img": "http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_full.png"
+    "img": "img/abaddon_full.png"
   },
   {
     "id": 103,
