@@ -2,6 +2,7 @@
 }
 
 .hero {
+  overflow: hidden;
   margin: 0 auto;
   width: 256px;
   height: 144px;
@@ -12,17 +13,23 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  clear: both;
+  position: relative;
+}
+
+.hero div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .hero-name {
-  margin: 0;
-  padding-top: 1em;
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
-}
+  color: #BBB;
+  text-shadow: black 2px 1px 5px;
+  background: rgba(0,0,0,0.4);
 
-.hero.is-revealed .hero-portrait {
-  display: none;
 }
 
 .hero:not(.is-revealed) .hero-name {
