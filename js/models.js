@@ -1,7 +1,7 @@
 PortraitGame.Heroes = [
   {
     "id": 1,
-    "name": "Antimage",
+    "name": "Anti-Mage",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png"
   },
   {
@@ -46,7 +46,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 11,
-    "name": "Nevermore",
+    "name": "Shadow Fiend",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_full.png"
   },
   {
@@ -106,7 +106,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 22,
-    "name": "Zuus",
+    "name": "Zeus",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_full.png"
   },
   {
@@ -171,7 +171,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 36,
-    "name": "Necrolyte",
+    "name": "Necrophos",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_full.png"
   },
   {
@@ -186,7 +186,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 39,
-    "name": "Queenofpain",
+    "name": "Queen of Pain",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_full.png"
   },
   {
@@ -246,7 +246,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 51,
-    "name": "Rattletrap",
+    "name": "Clockwerk",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_full.png"
   },
   {
@@ -256,12 +256,12 @@ PortraitGame.Heroes = [
   },
   {
     "id": 53,
-    "name": "Furion",
+    "name": "Nature's Prophet",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/furion_full.png"
   },
   {
     "id": 54,
-    "name": "Life Stealer",
+    "name": "Lifestealer",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_full.png"
   },
   {
@@ -331,7 +331,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 69,
-    "name": "Doom Bringer",
+    "name": "Doom",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_full.png"
   },
   {
@@ -371,7 +371,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 76,
-    "name": "Obsidian Destroyer",
+    "name": "Outworld Devourer",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_full.png"
   },
   {
@@ -441,12 +441,12 @@ PortraitGame.Heroes = [
   },
   {
     "id": 90,
-    "name": "Keeper Of The Light",
+    "name": "Keeper of the Light",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_full.png"
   },
   {
     "id": 91,
-    "name": "Wisp",
+    "name": "Io",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/wisp_full.png"
   },
   {
@@ -476,12 +476,12 @@ PortraitGame.Heroes = [
   },
   {
     "id": 97,
-    "name": "Magnataur",
+    "name": "Magnus",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_full.png"
   },
   {
     "id": 98,
-    "name": "Shredder",
+    "name": "Timbersaw",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/shredder_full.png"
   },
   {
