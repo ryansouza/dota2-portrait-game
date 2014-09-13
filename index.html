@@ -15,10 +15,10 @@
       <section id="portrait-game-app">
         <div {{bind-attr class=":hero isRevealed"}}>
           <div class="hero-portrait" {{action 'reveal'}}>
-            <img class="hero-portrait" {{bind-attr src="hero.img"}}/>
+            <img class="hero-portrait" {{bind-attr src="img"}}/>
           </div>
           <div class="hero-name" {{action 'next_hero'}}>
-            <p>{{hero.name}}</p>
+            <p>{{name}}</p>
           </div>
         </section>
       </section>

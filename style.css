@@ -1,14 +1,19 @@
-#portrait-game-app {
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
 }
 
 .hero {
   overflow: hidden;
   margin: 0 auto;
-  width: 256px;
-  height: 144px;
+  width: 266px;
+  height: 154px;
   cursor: pointer;
-  border: 2px solid #ccc;
-  border-radius: 6px;
+  border: 5px solid #ccc;
+  border-radius: 10px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -24,14 +29,19 @@
 }
 
 .hero-name {
-  font-size: 2.5em;
+  padding: 10%;
+  font-size: 2.4em;
   text-align: center;
   color: #BBB;
   text-shadow: black 2px 1px 5px;
-  background: rgba(0,0,0,0.4);
-
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.15s ease-in;
 }
 
-.hero:not(.is-revealed) .hero-name {
-  display: none;
+.hero.is-revealed .hero-name {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease-in;
 }

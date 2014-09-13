@@ -96,7 +96,7 @@ PortraitGame.Heroes = [
   },
   {
     "id": 20,
-    "name": "Vengefulspirit",
+    "name": "Vengeful Spirit",
     "img": "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_full.png"
   },
   {
