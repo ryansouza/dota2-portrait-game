@@ -20,6 +20,7 @@ p {
   user-select: none;
   clear: both;
   position: relative;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .hero div {
