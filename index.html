@@ -22,6 +22,11 @@
           </div>
         </section>
       </section>
+      <section id="preload">
+        {{#each}}
+          <img {{bind-attr src="img"}}>
+        {{/each}}
+      </section>
     </script>
 
     <script src="js/application.js"></script>

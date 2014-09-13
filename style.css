@@ -6,6 +6,10 @@ p {
   margin: 0;
 }
 
+#preload {
+  display: none;
+}
+
 .hero {
   overflow: hidden;
   margin: 0 auto;
